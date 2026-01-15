@@ -1,0 +1,25 @@
+{
+  "name": "laboratori-1",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^4.22.1",
+    "mysql2": "^3.16.0",
+    "vue": "^3.5.26"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "vite": "^7.3.0",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  }
+}
